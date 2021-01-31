@@ -1,5 +1,5 @@
-Count -= 10
-while Count > 1 do
+Count = 10
+while Count >= 1 do
   break if Count = 1
   puts "#{Count}"
 end
