@@ -1,6 +1,6 @@
 Count = 10
 while Count >= 1 do
-  break if Count = 1
-  puts "#{Count}"
+  puts Count
+  Count -=1
 end
 puts "Happy New Years!"
